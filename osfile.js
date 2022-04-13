@@ -1,0 +1,11 @@
+var os = require('os');
+console.log("platform"+os.platform());
+console.log("architecture"+os.arch());
+console.log(os.cpus());
+console.log("memory"+os.freemem());
+console.log("hostname"+os.hostname());
+console.log("username"+os.release());
+console.log("tempdirectory"+os.tmpdir());
+console.log("ostype"+os.type());
+console.log(os.userInfo());
+console.log(os.networkInterfaces());
